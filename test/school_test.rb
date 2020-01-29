@@ -9,14 +9,14 @@ class SchoolTest < Minitest::Test
 
     assert_instance_of School, school
   end
-end 
-#   def test_it_has_start_time
-#     skip
-#     school = School.new('9:00', 7)
-#
-#     assert_equal '9:00', school.start_time
-#   end
-#
+
+  def test_it_has_start_time
+    
+    school = School.new('9:00', 7)
+
+    assert_equal '9:00', school.start_time
+  end
+end
 #   def test_it_has_hours_in_school_day
 #     skip
 #     school = School.new('9:00', 7)
