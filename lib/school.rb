@@ -34,6 +34,6 @@ class School
   def convert_end_time_to_clock_time
     twelvehrday = (end_time.to_i)
     twelvehrday = twelvehrday > 12? twelvehrday - 12 : twelvehrday
-    (twelvehrday - 12).to_s + ":00"
+    twelvehrday.to_s + ":00"
   end
 end
